@@ -1,0 +1,89 @@
+:root {
+    font-size: 60%;
+}
+
+body {
+
+    background-color: black;
+    max-width: 1200px;
+    height: 20px;
+    margin-top: 50px;
+    font-size: 110%;
+}
+
+.redes {
+    border: 5px solid #00BFFF;
+    margin: 0 3%;
+    color: white;
+}
+
+.icone-redes {
+    position: absolute;
+    top: 10%;
+    right: 25%;   
+     
+}
+
+ .venha-para-redes a {
+     top: 20px;
+ }
+.psicologia{
+    border: 5px solid #00BFFF;
+    margin: 0 3%;
+    color: white;
+}
+
+.icone-psicologia{
+    position: absolute;
+    top: 35%;
+    right: 25%; 
+}
+
+.adm{
+    border: 5px solid #00BFFF;
+    margin: 0 3%;
+    color: white;
+}
+
+.icone-adm{
+    position: absolute;
+    top: 20%;
+    right: 24%; 
+}
+.marketing{
+    border: 5px solid #00BFFF;
+    margin: 0 3%;
+    color: white;
+}
+
+.icone-marketing{
+    position: absolute;
+    top: 50%;
+    right: 25%; 
+
+}
+.enfermagem{
+    border: 5px solid #00BFFF;
+    margin: 0 3%;
+    color: white;
+}
+
+.icone-enfermagem{
+    position: absolute;
+    top: 65%;
+    right: 24%; 
+
+}
+.desenvolvedor{
+    border: 5px solid #00BFFF;
+    margin: 0 3%;
+    color: white;
+}
+
+.icone-desenvolvedor{
+    position: absolute;
+    top: 80%;
+    right: 25%; 
+
+}
+

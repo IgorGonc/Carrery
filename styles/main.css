@@ -1,0 +1,52 @@
+/* CSS - Cascading StlyleSheet */
+:root {
+    --color-background: #C0C0C0;
+    --color-primary-lighter: #1E90FF;
+    --color-primary-light:#00BFFF;
+    --color-primary:#0000FF;
+    --color-primary-dark: #008B8B;
+    --color-primary-darker:#008080;
+    --color-secundary:
+    --color-secundary-dark:#00008B;
+    --color-title-in-primary:
+    --coloc-text-in-primary:
+    --color-text-in-title: #000000;
+    --color-text-complement:
+    --color-text-base:
+    --color-line-in-white:
+    --color-input background-color:
+    --color-button-text:
+    --color-box-base:
+    --color-box-footer:
+    --color-small-info:
+
+    font-size: 100%
+}
+ body {
+     display: flex;
+     justify-content: center;
+ }
+
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     
+ } 
+
+ 
+
+  body,
+  input,
+  button,
+  textarea {
+      font: 500 5.3rem Poppins;
+     
+  }
+
+  
+      
+
+     
+  
