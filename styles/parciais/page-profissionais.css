@@ -1,42 +1,140 @@
+@keyframes colorCycle {
+    0%, 55% {
+      filter: brightness(0) invert(1);
+    }
+    11%, 33% {
+      filter: none;
+    }
+  }
+
+
 :root {
-    font-size: 60%;
+    font-size: 40%;
 }
-
-body {
-
-    background-color: ;
-    max-width: 1200px;
-    height: 20px;
-    margin-top: 50px;
-    font-size: 110%;
+    
+#page-profissionais {
+   background-color:black;
+   width: 95%;
+   height: 95vh;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .roberto{
-
-
-}
-
-.jonas{
-
-
-}
-
-.rayssa{
-
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(124deg, #00164B, #67FFFF);
 
 }
 
-.bruno{
-
-
-}
-
-.aline{
-
-
-}
-
-.clara{
-
+.icone-roberto {
+    margin-top: -60px;
+    margin-left: 600px;
     
 }
+
+
+.jonas{
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(124deg, #00164B, #67FFFF);
+}
+
+.icone-jonas {
+    margin-top: -60px;
+    margin-left: 600px;
+    
+}
+
+
+.rayssa{
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(124deg, #00164B, #67FFFF);
+
+}
+
+.icone-rayssa {
+    margin-top: -60px;
+    margin-left: 700px;
+    
+}
+
+
+.bruno{
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(124deg, #00164B, #67FFFF);
+}
+
+.icone-bruno {
+    margin-top: -60px;
+    margin-left: 600px;
+    
+}
+
+
+.aline{
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(124deg, #00164B, #67FFFF);
+}
+
+.icone-aline{
+    margin-top: -60px;
+    margin-left: 600px;
+    
+}
+
+
+.clara{
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(124deg, #00164B, #67FFFF);
+    
+}
+
+.icone-clara {
+    margin-top: -60px;
+    margin-left: 700px;
+    
+}
+

@@ -1,25 +1,39 @@
 
+@keyframes colorCycle {
+    0%, 55% {
+      filter: brightness(0) invert(1);
+    }
+    11%, 33% {
+      filter: none;
+    }
+  }
+
 :root {
     font-size: 40%;
 }
     
 #page-landing {
    background-color:black;
+   width: 100%;
    height: 100vh;
-    border: 5px solid #D3D3D3;
-    margin: 0 3%;
+   border: 5px solid #f4f4f4;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 #container {
-  max-width: 1280px;
-  
-  
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
     text-align: center;
-    margin-bottom: 3.2rem;
-    
+    margin-bottom: 1vh; 
 }
 
 .logo img {
@@ -28,8 +42,9 @@
 
 .logo h2 {
     font-size: 100%;
-    color: white;
-    margin-top: -100px;
+    font-weight: 300;
+    letter-spacing: -0.1vw;
+    filter: brightness(0) invert(1);
 }
 
 .computador{
@@ -76,34 +91,67 @@
     left: 200px;
 }
 
-
-.botoes {
-    max-width: 800px;
-    display: flex;
-    justify-content: space-between;
-    margin: 60px auto;
-}
-
-.profissionais a {
-    background-color:#00BFFF;
-    padding: 10px 12px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: white;
-}
-
 .atro {
     position: absolute;
     top: 50px;
     right:200px;
 }
 
-.comunidades a {
-    background-color:#00BFFF;
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profissionais a {
     padding: 10px 12px;
-    border-radius: 20px;
     text-decoration: none;
+    font-weight: 300;
+    font-size: 2.5rem;
     color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(124deg, #00164B, #67FFFF);
+}
+
+.comunidades a {
+    background-color:#f4f4f4;
+    border: 3px solid #f4f4f4;
+    font-weight: 300;
+    font-size: 2.5rem;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .icons {
+        display: none;
+    }
+
+    .logo img {
+        width: 90%;
+    }
+
+    .logo h2 {
+        font-size: 80%;
+        font-weight: 300;
+        letter-spacing: -0.1vw;
+        filter: brightness(0) invert(1);
+    }
+
+    .botoes {
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
 }
     
 
